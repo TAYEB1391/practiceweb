@@ -1,0 +1,961 @@
+         /* ! RESPONSIVE FOR MENU ( NAVIGATION ) */
+         
+         @media (max-width:1130px) {
+             .container {
+                 width: 94%;
+                 margin: auto;
+             }
+             .topHeader1 {
+                 position: relative;
+                 font-size: 15px;
+                 padding: 13px 0px;
+                 color: var(--primary-color);
+                 width: 70%;
+                 float: left;
+             }
+             .topHeader1 span i {
+                 margin-right: 7px;
+                 margin-left: 15px;
+             }
+             .topHeader2 p {
+                 width: 50%;
+                 margin: 0px;
+                 text-align: left;
+             }
+             .navLogo {
+                 width: 27%;
+             }
+             .navigation {
+                 width: 65%;
+                 font-size: 15px;
+             }
+         }
+         
+         @media (max-width:1030px) {
+             .container {
+                 width: 94%;
+                 margin: auto;
+             }
+             .topHeader1 {
+                 position: relative;
+                 font-size: 14px;
+                 padding: 13px 0px;
+                 color: var(--primary-color);
+                 width: 70%;
+                 float: left;
+             }
+             .topHeader1 span i {
+                 margin-right: 6px;
+                 margin-left: 12px;
+             }
+             .topHeader2 p {
+                 width: 50%;
+                 margin: 0px;
+                 text-align: left;
+             }
+             .navLogo {
+                 width: 25%;
+             }
+             .navigation {
+                 width: 67%;
+                 font-size: 14px;
+             }
+         }
+         /* ! SIDE NAVIGATION MENU START */
+         
+         @media (max-width:950px) {
+             .container {
+                 width: 94%;
+                 margin: auto;
+             }
+             .topHeader {
+                 display: none;
+             }
+             .bottomHeader {
+                 width: 100%;
+                 display: table;
+                 position: fixed;
+                 z-index: 100000;
+                 background: #ff3c00;
+                 transition: 0.3s;
+             }
+             .navLogo img {
+                 display: none;
+             }
+             .topHeader2ResponsiveLogo {
+                 display: block;
+                 text-transform: uppercase;
+                 font-weight: 700;
+                 line-height: 1.2;
+                 margin: 0px 15px;
+                 font-family: 'Fira Sans', sans-serif;
+                 color: var(--primary-color);
+             }
+             .navIcons {
+                 margin-top: 15px;
+                 display: block;
+                 transition: all 0.3s;
+                 margin-right: 10px;
+             }
+             .navigation {
+                 display: none;
+             }
+             .sidenavIcons {
+                 display: block;
+				 margin-bottom:110px;
+             }
+             .bottomHeader.sticky {
+                 transform: translateY(0px);
+             }
+             .resnavigation {
+                 position: fixed;
+                 top: 47px;
+                 width: 30%;
+                 height: 100vh;
+				 overflow:auto;
+                 text-transform: capitalize;
+                 padding: 15px 0px;
+                 font-size: 16px;
+                 font-family: 'Fira Sans', sans-serif;
+                 color: var(--secondary-color);
+                 margin-top: 11px;
+                 background: var(--sixth-color);
+                 transition: all 0.3s;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-between;
+             }
+			 .resnavigation ::-webkit-scrollbar {
+                width: 5px;
+            }
+             .resmainMenu li {
+                 cursor: pointer;
+                 margin-left: 3.35%;
+                 transition: 0.3s;
+                 display: block;
+             }
+             .ressidenavIcons {
+                 display: block;
+             }
+             .bottomHeader.sticky {
+                 transform: translateY(0px);
+             }
+             #navButton {
+                 display: none;
+             }
+             .resnavigation li {
+                 padding: 15px 0px;
+                 margin-left: 50px;
+             }
+             .ressubmenu {
+                 width: 85%;
+                 padding: 5px 15px 3px 3px;
+                 color: var(--secondary-color);
+                 background: var(--fourteenth-color);
+                 transition: 0.5s;
+                 margin-top: 25px;
+             }
+             .ressubmenu li {
+                 float: none;
+                 position: relative;
+                 line-height: 33px;
+                 font-size: 15px;
+                 padding: 0px 0px !important;
+                 margin-left: 10px !important;
+             }
+             .ressubmenu2 {
+                 width: 75%;
+                 padding: 5px 15px 3px 3px;
+                 margin-top: 10px;
+                 color: var(--secondary-color);
+                 background: var(--primary-color);
+                 transition: 0.5s;
+                 transform: scaleY(0);
+                 transform-origin: top;
+                 display: none;
+             }
+         }
+         
+         @media (max-width:850px) {
+             .resnavigation {
+                 width: 35%;
+             }
+             .ressubmenu li {
+                 line-height: 30px;
+                 font-size: 12px;
+                 padding: 0px 0px !important;
+                 margin-left: 10px !important;
+             }
+             #collapse2 {
+                 font-size: 13px !important;
+             }
+         }
+         
+         @media (max-width:750px) {
+             .resnavigation {
+                 width: 40%;
+             }
+             .sidenavIcons a i {
+                 margin-right: 15px;
+             }
+             .ressubmenu li {
+                 line-height: 30px;
+                 font-size: 12px;
+                 padding: 0px 0px !important;
+                 margin-left: 10px !important;
+             }
+             #collapse2 {
+                 font-size: 13px !important;
+             }
+         }
+         
+         @media (max-width:650px) {
+             .resnavigation {
+                 width: 45%;
+                 font-size: 15px;
+             }
+             .resmainMenu li i {
+                 font-size: 19px;
+             }
+             .resnavigation li {
+                 font-size: 15px;
+             }
+             .sidenavIcons a i {
+                 margin-right: 15px;
+             }
+             .ressubmenu li {
+                 line-height: 30px;
+                 font-size: 12px;
+                 padding: 0px 0px !important;
+                 margin-left: 10px !important;
+             }
+             #collapse2 {
+                 font-size: 13px !important;
+             }
+         }
+         
+         @media (max-width:550px) {
+             .resnavigation {
+                 width: 50%;
+             }
+             .resnavigation li {
+                 margin-left: 25px;
+                 font-size: 14px;
+             }
+             .sidenavIcons a i {
+                 margin-right: 15px;
+             }
+             .ressubmenu li {
+                 line-height: 30px;
+                 font-size: 11px;
+                 padding: 0px 0px !important;
+                 margin-left: 10px !important;
+                 letter-spacing: 0.5px;
+             }
+             #collapse2 {
+                 font-size: 13px !important;
+             }
+         }
+         
+         @media (max-width:450px) {
+             .resnavigation {
+                 width: 60%;
+             }
+             .resnavigation li {
+                 margin-left: 25px;
+                 font-size: 14px;
+             }
+             .sidenavIcons a i {
+                 margin-right: 15px;
+             }
+             .ressubmenu li {
+                 line-height: 30px;
+                 font-size: 11px;
+                 padding: 0px 0px !important;
+                 margin-left: 10px !important;
+                 letter-spacing: 0.5px;
+             }
+             #collapse2 {
+                 font-size: 13px !important;
+             }
+         }
+         
+         @media (max-width:350px) {
+             .resnavigation {
+                 width: 100%;
+             }
+             .resnavigation li {
+                 margin-left: 50px;
+                 font-size: 14px;
+             }
+             .sidenavIcons a i {
+                 margin-right: 15px;
+             }
+             .ressubmenu li {
+                 line-height: 30px;
+                 font-size: 11px;
+                 padding: 0px 0px !important;
+                 margin-left: 10px !important;
+                 letter-spacing: 0.5px;
+             }
+             #collapse2 {
+                 font-size: 13px !important;
+             }
+         }
+         /* ! SIGN UP SECTION START */
+         
+         @media (max-width:1130px) {
+             .txt p {
+                 width: 61%;
+             }
+             .SignUp {
+                 width: 60%;
+                 margin: auto;
+             }
+             .dob {
+                 width: 30% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 40.5%;
+             }
+         }
+         
+         @media (max-width:1030px) {
+             .txt p {
+                 width: 68%;
+             }
+             #sex {
+                 width: 40.5%;
+             }
+         }
+         
+         @media (max-width:950px) {
+             .SignUp {
+                 width: 67%;
+                 margin: auto;
+             }
+             .txt p {
+                 width: 74%;
+             }
+             #sex {
+                 width: 41%;
+             }
+         }
+         
+         @media (max-width:850px) {
+             .SignUp {
+                 width: 67%;
+                 margin: auto;
+             }
+             .txt p {
+                 width: 74%;
+             }
+             #country {
+                 width: 49%;
+             }
+             .dob {
+                 width: 37% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 50%;
+             }
+             .str {
+                 width: 66%;
+             }
+         }
+         
+         @media (max-width:750px) {
+             .SignUp {
+                 width: 70%;
+                 margin: auto;
+             }
+             .txt p {
+                 width: 81%;
+             }
+             #country {
+                 width: 49%;
+             }
+             .dob {
+                 width: 37% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 50%;
+             }
+             .str {
+                 width: 67%;
+             }
+         }
+         
+         @media (max-width:650px) {
+             .SignUp {
+                 width: 80%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 22px;
+             }
+             .txt p {
+                 width: 91%;
+                 font-size: 15px;
+             }
+             .form div b {
+                 font-size: 16px;
+             }
+             .form div input {
+                 width: 55%;
+                 font-size: 14px;
+             }
+             #country {
+                 width: 49%;
+             }
+             .code {
+                 top: 41px;
+             }
+             .dob {
+                 width: 37% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 50%;
+             }
+             .str {
+                 width: 67%;
+             }
+         }
+         
+         @media (max-width:550px) {
+             .SignUp {
+                 width: 90%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 20px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 14px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 16px;
+             }
+             .form div input {
+                 width: 70%;
+                 font-size: 14px;
+             }
+             #country {
+                 width: 49%;
+             }
+             .code {
+                 top: 41px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 67% !important;
+             }
+             .dob {
+                 width: 42% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 59%;
+             }
+             .form {
+                 width: 100%;
+                 padding: 0px 0px;
+             }
+             .str {
+                 width: 83%;
+             }
+         }
+         
+         @media (max-width:473px) {
+             #validMailIcon {
+                 top: -48px;
+                 left: 77%;
+             }
+             .mailErr {
+                 font-size: 15px;
+                 position: relative;
+                 top: -18px;
+             }
+         }
+         
+         @media (max-width:450px) {
+             .SignUp {
+                 width: 90%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 18px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 13px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 16px;
+             }
+             .form div input {
+                 width: 70%;
+                 font-size: 14px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 top: 41px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 67% !important;
+             }
+             .dob {
+                 width: 71% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+             .str {
+                 width: 86%;
+             }
+         }
+         
+         @media (max-width:355px) {
+             .SignUp {
+                 width: 90%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 16px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 12px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 14px;
+             }
+             .form div input {
+                 width: 80%;
+                 font-size: 13px;
+             }
+             #passIcon1 {
+                 top: -45px;
+                 left: 255px;
+             }
+             #passIcon2 {
+                 top: -45px;
+                 left: 255px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 top: 40px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 75% !important;
+             }
+             .dob {
+                 width: 71% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+             #validMailIcon {
+                 top: -48px;
+                 left: 90%;
+             }
+             .str {
+                 width: 100%;
+             }
+             .passErr {
+                 font-size: 13px;
+             }
+             .ageErr {
+                 font-size: 13px;
+             }
+         }
+         
+         @media (max-width:345px) {
+             .SignUp {
+                 width: 90%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 16px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 12px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 14px;
+             }
+             .form div input {
+                 width: 80%;
+                 font-size: 13px;
+             }
+             #passIcon1 {
+                 top: -45px;
+                 left: 256px;
+             }
+             #passIcon2 {
+                 top: -45px;
+                 left: 256px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 top: 40px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 75% !important;
+             }
+             .dob {
+                 width: 71% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+         }
+         
+         @media (max-width:330px) {
+             .SignUp {
+                 width: 90%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 16px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 12px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 14px;
+             }
+             .form div input {
+                 width: 71%;
+                 font-size: 13px;
+             }
+             #passIcon1 {
+                 top: -45px;
+                 left: 220px;
+             }
+             #passIcon2 {
+                 top: -45px;
+                 left: 220px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 top: 40px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 68% !important;
+             }
+             .dob {
+                 width: 71% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+             #validMailIcon {
+                 top: -48px;
+                 left: 79%;
+             }
+             .str {
+                 width: 92%;
+             }
+         }
+         
+         @media (max-width:315px) {
+             .container {
+                 width: 90%;
+                 margin: auto;
+             }
+             .SignUp {
+                 width: 95%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 14px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 11px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 14px;
+             }
+             .form div input {
+                 width: 71%;
+                 font-size: 13px;
+             }
+             #passIcon1 {
+                 top: -45px;
+                 left: 213px;
+             }
+             #passIcon2 {
+                 top: -45px;
+                 left: 213px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 top: 40px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 68% !important;
+             }
+             .dob {
+                 width: 71% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+             .str {
+                 width: 93%;
+             }
+             .passErr {
+                 font-size: 11px;
+                 margin-left: 0px;
+             }
+             .ageErr {
+                 font-size: 11px;
+                 margin-left: 0px;
+             }
+         }
+         
+         @media (max-width:295px) {
+             .container {
+                 width: 90%;
+                 margin: auto;
+             }
+             .SignUp {
+                 width: 95%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 14px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 11px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 14px;
+             }
+             .form div input {
+                 width: 71%;
+                 font-size: 13px;
+             }
+             #passIcon1 {
+                 top: -45px;
+                 left: 200px;
+             }
+             #passIcon2 {
+                 top: -45px;
+                 left: 200px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 top: 40px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 68% !important;
+             }
+             .dob {
+                 width: 71% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+             .mailErr {
+                 font-size: 14px;
+                 position: relative;
+                 top: -18px;
+             }
+         }
+         
+         @media (max-width:280px) {
+             .container {
+                 width: 90%;
+                 margin: auto;
+             }
+             .SignUp {
+                 width: 95%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 12px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 9px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 14px;
+             }
+             .form div input {
+                 width: 71%;
+                 font-size: 13px;
+             }
+             #passIcon1 {
+                 top: -45px;
+                 left: 190px;
+             }
+             #passIcon2 {
+                 top: -45px;
+                 left: 190px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 width: 25% !important;
+                 top: 40px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 68% !important;
+             }
+             .dob {
+                 width: 71% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+             .mailErr {
+                 font-size: 12px;
+                 position: relative;
+                 top: -18px;
+             }
+         }
+         
+         @media (max-width:270px) {
+             .container {
+                 width: 95%;
+                 margin: auto;
+             }
+             .SignUp {
+                 width: 95%;
+                 margin: auto;
+             }
+             .txt h3 {
+                 font-size: 12px;
+             }
+             .txt p {
+                 width: 93%;
+                 font-size: 9px;
+             }
+             .form {
+                 width: 100%;
+                 padding: 0px 0px;
+             }
+             #user {
+                 font-size: 50px;
+                 width: 90%;
+             }
+             .form div b {
+                 font-size: 14px;
+             }
+             .form div input {
+                 width: 65%;
+                 font-size: 13px;
+             }
+             #passIcon1 {
+                 top: -45px;
+                 left: 175px;
+             }
+             #passIcon2 {
+                 top: -45px;
+                 left: 175px;
+             }
+             #country {
+                 width: 70%;
+             }
+             .code {
+                 top: 40px;
+             }
+             .phoNum {
+                 padding: 10px 0px 10px 75px !important;
+                 width: 63% !important;
+             }
+             .dob {
+                 width: 65% !important;
+                 cursor: pointer;
+                 display: block;
+             }
+             #sex {
+                 width: 70%;
+             }
+             .str {
+                 width: 90%;
+             }
+         }
